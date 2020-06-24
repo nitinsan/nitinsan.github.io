@@ -18,7 +18,8 @@ slides:
             <div class="row">
               <div class="large-10 large-centered columns">
                 {% if slide.layout == 'default' %}
-                  <div class="image-wrapper" style="background-image: url({{site.url}}/{{slide.image}});"></div>
+                  <video height="758px" autoplay="true" loop="true" muted="true" plays-inline="" style="position: absolute; right: 0; top: 0; min-width:100%; z-index: -100; object-fit: cover;">
+                  <source src="images/background3.mp4" type="video/mp4"> </video>
                   <div class="two spacing"></div>
                   <h1>{{slide.title}}</h1>
                   <p>{{slide.tagline}}</p>
