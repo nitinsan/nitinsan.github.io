@@ -1,0 +1,13 @@
+TODO:
+- Add Social Links
+- Add Email with Captcha
+- Make All blue colors same
+- Make hover color yellow
+- Swap UMD and PRG Logo
+- Add Thesis advisors
+- Add text background in p tag with div for research
+- Add border radius for research images
+- Add Custom path with ../ for inner folders
+- Add Moms with events
+- News section
+- Center images in tutorials
