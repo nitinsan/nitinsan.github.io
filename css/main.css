@@ -2161,6 +2161,90 @@ color: black;
 text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 /*text-shadow: 0 0 3px white;*/
 }
+
+.heading h4{
+position: absolute;
+/*height: 50vh;*/
+/*width: 300vw;
+*/
+margin-left: 25vw;
+/*margin-right: 100px;*/
+margin-top: 85vh;
+font-size: 40pt;
+/*width: 100vh;*/
+align-items: center;
+text-align: center;
+z-index: 999;
+/*overflow-x: auto;
+overflow-y: auto;*/
+display: flex; 
+color: black;
+/*text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
+/*text-shadow: 0 0 3px white;*/
+}
+
+
+.logo-background {
+  background: rgba(0,0,0, 0.7);
+  border-radius: 10%;
+  padding-right: 1%;
+
+}
+
+@media (max-width: 768px) {
+  .heading h4{
+position: absolute;
+/*height: 50vh;*/
+/*width: 300vw;
+*/
+margin-left: 0vw;
+margin-right: 0vw;
+/*margin-right: 100px;*/
+margin-top: 85vh;
+font-size: 24pt;
+/*width: 100vh;*/
+align-items: center;
+text-align: center;
+z-index: 999;
+overflow-x: auto;
+overflow-y: auto;
+display: flex; 
+color: black;
+/*text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
+/*text-shadow: 0 0 3px white;*/
+}
+
+.logo-background {
+  background: rgba(0,0,0, 0.7);
+  border-radius: 00%;
+  padding-right: 0%;
+
+}
+}
+
+
+.heading h4 a{
+  color: white;
+  /*text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;*/
+  /*background: rgba(0,0,0, 0.5);*/
+  border-radius: 25%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+
+.heading h4 a:hover {
+color: var(--linkhover);
+}
+
+.highlight-sec h6{
+  font-size: 16px;
+  background: rgba(30, 30, 30, 0.15);
+  padding: 5px;
+  display: inline-block;
+  font-weight: 600;
+  /*margin-bottom: 10px;*/
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -3260,6 +3344,17 @@ background-color: #fafafa;
   text-align: center;
 }
 
+.timeline ul li .content h5 {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.timeline ul li .content h6 {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
 .timeline ul li .content p {
   text-align: center;
   margin-bottom: 5px;
@@ -3283,6 +3378,76 @@ background-color: #fafafa;
 
 .timeline ul li:nth-child(even) .content:before {
   right: -38px;
+}
+
+/* ---------------------
+Large for Teaching
+----------------------- */
+
+
+.timeline ul li .content-l {
+  background-color: white !important;
+  box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2);
+  position: relative;
+  top: 7px;
+  width: 460px;
+  padding: 30px;
+}
+
+.timeline ul li .content-l h4 {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.timeline ul li .content-l h5 {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.timeline ul li .content-l h6 {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
+.timeline ul li .content-l p {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.timeline ul li .content-l p b {
+  color: #222;
+}
+
+.timeline ul li:nth-child(odd) .content-l {
+  left: 50px;
+}
+
+.timeline ul li:nth-child(odd) .content-l:before {
+  left: -38px;
+}
+
+.timeline ul li:nth-child(even) .content-l {
+  left: calc(-460px - 45px);
+}
+
+.timeline ul li:nth-child(even) .content-l:before {
+  right: -38px;
+}
+
+@media screen and (max-width: 1035px) {
+  .timeline ul li .content-l {
+  background-color: white !important;
+  box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2);
+  position: relative;
+  top: 7px;
+  width: 400px;
+  padding: 30px;
+}
+.timeline ul li:nth-child(even) .content-l {
+  left: calc(-400px - 45px);
+}
+
 }
 
 /* -------------------------
@@ -3469,6 +3634,94 @@ dl.accordion.time-line:before {
   background: none !important;
 }
 
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  text-align: center;
+  background: rgba(200, 200, 200, 0.5);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 16px;
+}
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: var(--themecolor);
+  border-radius: 5px;
+  transition: all .3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transform-style: preserve-3d;
+}
+
+.services .icon-box .icon i {
+  color: #fff;
+  font-size: 28px;
+}
+
+.services .icon-box .icon::before {
+  position: absolute;
+  content: '';
+  left: -8px;
+  top: -8px;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  transition: all .3s ease-out 0s;
+  transform: translateZ(-1px);
+}
+
+.services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box h4 a {
+  color: #fff;
+}
+
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #000;
+}
+
+.services .icon-box:hover {
+  /*background: var(--themecolorrgba);
+  border-color: var(--themecolorrgba);*/
+}
+
+.services .icon-box:hover .icon {
+  background: #fff;
+}
+
+.services .icon-box:hover .icon i {
+  /*color: var(--themecolor);*/
+}
+
+.services .icon-box:hover .icon::before {
+  background: #35e888;
+}
+
+.services .icon-box:hover p {
+  /*s*/
+}
+
+.services .icon-box:hover h4 {
+  /*color: var(--linkhover);*/
+}
+
 /* =================================== */
 /*  Blog Styles
 /* =================================== */
@@ -3532,7 +3785,9 @@ dl.accordion.time-line:before {
 
 .top-category-widget-area .single-cat-widget .overlay-bg {
   background: rgba(0, 0, 0, 0.85);
-  margin: 7%;
+  /*margin: 7%;*/
+  margin-top: 61%;
+  margin-bottom: -30%;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;

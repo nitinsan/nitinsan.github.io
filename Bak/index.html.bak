@@ -29,30 +29,36 @@
 			<link rel="stylesheet" href="css/animate.min.css">
 			<link rel="stylesheet" href="css/owl.carousel.css">				
 			<link rel="stylesheet" href="css/main.css">
+			<link href="css/icofont/icofont.min.css" rel="stylesheet">
+		    <link href="css/remixicon/remixicon.css" rel="stylesheet">
+		    <link href="css/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+		    <link href="css/boxicons/css/boxicons.min.css" rel="stylesheet">
+		    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		</head>
 		<body>	
 		<!-- EDIT ME -->
-		  <header id="header">
-		    <div class="container main-menu">
-		    	<div class="row align-items-center justify-content-between d-flex">
-			      <div id="logo">
-			        <a href="index.html"><img src="img/logos/1.png" width="48px" alt="" title="" /></a>
-			      </div>
-			      <nav id="nav-menu-container">
-			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
-			          <li><a href="about.html">About</a></li>
-			          <li><a href="research.html">Research</a></li>
-			          <li><a href="tutorials.html">Tutorials</a></li>
-			          <li><a href="teaching.html">Teaching</a></li>
-			           <li><a href="services.html">Services</a></li>			          					          		          
-			          <li><a href="contact.html">Contact</a></li>
-			        </ul>
-			      </nav><!-- #nav-menu-container -->		    		
-		    	</div>
-		    </div>
-		  </header><!-- #header -->
-		  <!-- EDIT ME -->
+			<header id="header">
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+				        <a href="index.html"><img src="img/logos/1.png" width="48px" alt="" title=""></a>
+				      </div>
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li><a href="index.html">Home</a></li>
+				          <li><a href="about.html">About</a></li>
+				          <li><a href="research.html">Research</a></li>
+				          <li><a href="tutorials.html">Tutorials</a></li>
+				          <li><a href="teaching.html">Teaching</a></li>
+				           <li><a href="services.html">Services</a></li>			          					          		          
+				          <li><a href="contact.html">Contact</a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->		    		
+					</div>
+				</div>
+			</header><!-- #header -->	
+			<!-- EDIT ME -->
 		  
 			<!-- start banner Area -->
 			<section class="banner-area">
@@ -65,6 +71,18 @@
 				<div class="heading">
 					<h1> Nitin J. Sanket </h1>
 					<h3>Roboticist </h3>
+					<h4>
+				  <div class="logo-background">
+				  <a title="Google Scholar" href="https://scholar.google.com/citations?user=ugyWSWwAAAAJ&hl=en&oi=ao" class="ai"><i class="ai ai-google-scholar"></i></a>&nbsp;
+				  <a title="Github" href="http://github.com/nitinjsanket/" class="github"><i class="fa fa-github"></i></a>&nbsp;
+		          <a title="Teaching on YouTube" href="http://youtube.com/prgumdteaching" class="youtube"><i class="fa fa-youtube-square"></i></a>&nbsp;
+		          <a title="LinkedIn" href="https://www.linkedin.com/in/nitinjsanket/" class="linkedin"><i class="fa fa-linkedin-square"></i></a>&nbsp;
+		          <a title="Twitter" href="http://twitter.com/nitinjsanket" class="twitter"><i class="fa fa-twitter-square"></i></a>&nbsp;
+		          <a title="500px" href="https://500px.com/nitinjsanket" class="500px"><i class="fa fa-500px"></i></a>&nbsp;
+		          <a title="Instagram" href="http://instagram.com/firenitin" class="instagram"><i class="fa fa-instagram"></i></a>&nbsp;
+		          <a title="Photography" href="http://instagram.com/njsphoto" class="camera"><i class="fa fa-camera"></i></a>&nbsp;
+		          <a title="Facebook" href="http://facebook.com//nitin.jsanket" class="facebook"><i class="fa fa-facebook-square"></i></a></h4>
+		      	  </div>
 				</div>
 			</section>
 			<!-- End banner Area -->
