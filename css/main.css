@@ -2675,14 +2675,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-social {
   /*margin: 20px 0;*/
-  margin-left: -23vw;
+  margin-left: -28vw;
   margin-top: 35vh;
-  font-size: 40px;
+  font-size: 48px;
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
-  padding-right: 10px;
   /*text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
   /*text-transform: uppercase;*/
   /*Add media here*/
