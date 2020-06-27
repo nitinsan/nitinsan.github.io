@@ -2682,6 +2682,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   top: 0;
   left: 0;
+  padding-right: 10px;
   /*text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
   /*text-transform: uppercase;*/
   /*Add media here*/
