@@ -2188,7 +2188,6 @@ color: black;
   background: rgba(0,0,0, 0.7);
   border-radius: 10%;
   padding-right: 1%;
-
 }
 
 @media (max-width: 768px) {
@@ -2621,6 +2620,33 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 750px !important;
 }
 
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh; 
+  overflow: hidden;
+}
+
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  display: flex;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 .banner-left h6 {
   text-transform: uppercase;
   font-weight: 400;
@@ -2628,17 +2654,75 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-left h1 {
-  margin: 20px 0;
+  /*margin: 20px 0;*/
+  margin-left: -10vw;
+  margin-top: -15vh;
   font-size: 60px;
-  text-transform: uppercase;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  /*text-transform: uppercase;*/
+  /*Add media here*/
+}
+
+.banner-left h2 {
+  /*margin: 20px 0;*/
+  margin-left: -10vw;
+  margin-top: 0px;
+  font-size: 40px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  /*text-transform: uppercase;*/
+  /*Add media here*/
+}
+
+@media (max-width: 1440px) {
+  .banner-left h1 {
+  /*margin: 20px 0;*/
+  margin-left: 0vw;
+  margin-top: -15vh;
+  font-size: 50px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  /*text-transform: uppercase;*/
+  /*Add media here*/
+}
+
+.banner-left h2 {
+  /*margin: 20px 0;*/
+  margin-left: 0vw;
+  margin-top: 0px;
+  font-size: 30px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  /*text-transform: uppercase;*/
+  /*Add media here*/
+}
 }
 
 @media (max-width: 991px) {
   .banner-left h1 {
+  /*margin: 20px 0;*/
+  margin-left: 0vw;
+ /* margin-top: -15vh;*/
+  font-size: 40px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  /*text-transform: uppercase;*/
+  /*Add media here*/
+}
+
+.banner-left h2 {
+  /*margin: 20px 0;*/
+  margin-left: 0vw;
+  /*margin-top: 0px;*/
+  font-size: 24px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  /*text-transform: uppercase;*/
+  /*Add media here*/
+}
+}
+
+/*@media (max-width: 991px) {
+  .banner-left h1 {
     font-size: 30px;
   }
 }
-
+*/
 .banner-left .primary-btn:hover {
   box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
 }
