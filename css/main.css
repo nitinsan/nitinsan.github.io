@@ -2187,7 +2187,7 @@ color: black;
 .logo-background {
   background: rgba(0,0,0, 0.7);
   border-radius: 10%;
-  padding-right: 1%;
+ /* padding-right: 1%;*/
 }
 
 @media (max-width: 768px) {
@@ -2675,7 +2675,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-social {
   /*margin: 20px 0;*/
-  margin-left: -28vw;
+  margin-left: -20vw;
   margin-top: 35vh;
   font-size: 48px;
   display: flex;
